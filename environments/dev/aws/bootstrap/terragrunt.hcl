@@ -14,7 +14,7 @@ include "root" {
 }
 
 inputs = {
-  organisation = include.root.locals.gcp.organisation
+  organisation = include.root.locals.aws.organisation
   name         = include.root.locals.projectName
   env          = include.env.locals.env
 }

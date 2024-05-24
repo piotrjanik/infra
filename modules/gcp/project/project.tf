@@ -1,5 +1,5 @@
 locals {
-  name = format("piotr-%s-%s", var.name, var.env)
+  name = format("%s-%s", var.name, var.env)
 }
 module "project-factory" {
   source  = "terraform-google-modules/project-factory/google"
