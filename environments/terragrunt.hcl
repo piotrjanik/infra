@@ -38,9 +38,9 @@ locals {
     network_name    = "test"
     subnets = {
       "piotr-test-main" = {
-        cidr    = "10.0.0.0/16"
-        private = true
-        region  = "europe-west1"
+        cidr      = "10.0.0.0/16"
+        private   = true
+        region    = "europe-west1"
         secondary = {}
       }
       "piotr-test-dev" = {
