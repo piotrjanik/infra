@@ -1,5 +1,5 @@
 locals {
-  name  = format("piotr-%s-%s", var.name, var.env)
+  name  = format("%s-%s", var.name, var.env)
   email = format("aws-%s@nautilia.pl", local.name)
 }
 
